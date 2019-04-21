@@ -6,7 +6,7 @@ library(fpp2)
 library(urca)
 ############################read and create a time series#####################
 
-Dow_jones <- read.csv("C:/Users/pooja/Documents/Sample/BF/dow_jones.csv")
+Dow_jones <- read.csv("dow_jones.csv")
 Dow_jones1 <- ts(Dow_jones$Adj.Close, start=c(2000, 1), freq=12)
 
 ##################plot the timeseries graph and acf graph#########################
@@ -69,8 +69,8 @@ Acdrift<-Ac_drift[4]*Ac_drift[4]
 
 autoplot(dowjones_train) +
   autolayer(dow_mean, series="Mean", PI=FALSE) +
-  autolayer(dow_naive, series="Naïve", PI=FALSE) +
-  autolayer(dow_snaive, series="Seasonal Naïve", PI=FALSE) +
+  autolayer(dow_naive, series="NaÃ¯ve", PI=FALSE) +
+  autolayer(dow_snaive, series="Seasonal NaÃ¯ve", PI=FALSE) +
   autolayer(dow_drift, series="Drift", PI=FALSE) +
   xlab("Monthly") + ylab("Adjusted Closing Price") +
   ggtitle("DOW JONES INEDEX") +
@@ -157,7 +157,7 @@ autoplot(dowjones_train_stationary) +
 library(shiny)
 #install.packages("shinydashboard")
 library(shinydashboard)
-Dow_jones <- read.csv("C:/Users/pooja/Documents/Sample/BF/dow_jones.csv")
+Dow_jones <- read.csv("dow_jones.csv")
 Dow_jones1 <- ts(Dow_jones$Adj.Close, start=c(2000, 1), freq=12)
 
 
