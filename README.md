@@ -10,7 +10,7 @@
   
 ## Forecasting Dow Jones Index
 
-#### Dataset: 
+#### Dataset
 - Downloaded data from Yahoo finance for dow jones index from 2000 to 2018.
 - The data-set contains five Dow Jones values for each day - open, high, low, close, and adjusted close.
 - We used adjusted close price to the raw close price, because it accounts for corporate actions such as dividents, stock splits etc.
