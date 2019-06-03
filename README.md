@@ -1,4 +1,4 @@
-### What is Dow Jones Indes?
+#### What is Dow Jones Indes?
 
 - The Dow Jones Industrial Average (DJIA) is an index that tracks 30 large, publicly-owned companies trading on the New York Stock Exchange   (NYSE) and the NASDAQ. 
 
