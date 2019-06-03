@@ -20,5 +20,5 @@
 - We applied multiple forecasting models - ranging from simple statistical models such as naive method, drift method etc. to more complex
   forecasting models such as ARIMA model, Holt model etc.
 - Auto regressive model turned out to be the best forecasting model since it generated least error values in 4 out of 7 error types.
-- For visualization, we used Shinny app, which is an interactive approach that helps us explain data analysis in form of a story using R.
+- For visualization, we used Shiny app, which is an interactive approach that helps us explain data analysis in form of a story using R.
 
