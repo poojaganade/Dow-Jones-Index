@@ -12,9 +12,13 @@
 
 #### Dataset: 
 - Downloaded data from Yahoo finance for dow jones index from 2000 to 2018.
-- The data-set contains five Dow Jones values for each day - open, high, low, close, and adjusted close
+- The data-set contains five Dow Jones values for each day - open, high, low, close, and adjusted close.
 - We used adjusted close price to the raw close price, because it accounts for corporate actions such as dividents, stock splits etc.
 
 #### Forecasting applied
-- Used 2000 to 2017 as training data set and forecasted 2018 values.
-- We applied R code for forecasting and for visulaization used Shinny aap
+- We used 2000 to 2017 as training data set and forecasted the Dow Jones index in 2018.
+- We applied multiple forecasting models - ranging from simple statistical models such as naive method, drift method etc. to more complex
+  forecasting models such as ARIMA model, Holt model etc.
+- Auto regressive model turned out to be the best forecasting model since it generated least error values in 4 out of 7 error types.
+- For visualization, we used Shinny app, which is an interactive approach that helps us explain data analysis in form of a story using R.
+
